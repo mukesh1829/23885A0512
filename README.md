@@ -1,34 +1,33 @@
-# React URL Shortener
+# 🔗 URL Shortener
 
-## Tech Stack
-- React (Frontend)
-- Material UI (Styling)
-- React Router (Routing)
-- localStorage (Data Persistence)
-- Custom Logger Middleware (Logging)
+A simple React-based URL shortener web app that allows users to:
 
-## Folder Structure
-- src/components: Reusable components
-- src/pages: Pages for routing (Home, Stats)
-- src/utils: Logger function
+- Shorten long URLs
+- View click statistics for each short link
 
-## Logging
-A custom `logger()` function is created to track each major function call. Used in:
-- URL shortening handler
-- Form submission
-- Data saving to localStorage
+---
 
-## Data Flow
-- Inputs from form: long URL, optional shortcode, validity
-- Data is saved in localStorage along with creation time
-- Statistics page reads and shows data
+## 🚀 Features
 
-## Validations
-- URL required
-- Validity defaulted to 30 minutes
-- If no shortcode, random one generated
-- Client-side checks before submission
+- Input long URLs and get a custom short link
+- Track number of clicks for each shortened URL
+- Responsive and clean UI using React
+- Basic CSS styling
 
-## Routing
-- `/` → URL Shortener form
-- `/stats` → Statistics dashboard
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- HTML & CSS
+
+---
+
+## 📦 Installation
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/your-username/url-shortener.git
+cd url-shortener
